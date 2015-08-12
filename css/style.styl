@@ -15,7 +15,7 @@ p, h1, h2, h3, h4, h5, h6, p
   font-weight 400
   line-height 1.5em
 
-edit()
+// edit()
 html 
 	background-color blue-lt
 section.top
@@ -26,6 +26,8 @@ section.top
 	trans()
 	+below('s')
 		height 300px
+	+below('xs')
+		height 260px
 .wrapper
 	center(1024px)
 	position relative
@@ -53,11 +55,11 @@ section.top
 			bottom -32px
 			width 480px
 	+below('xs')
-		width 360px
+		width 320px
 		img.logo
 			center()
-			bottom -21px
-			width 320px
+			bottom -18px
+			width 280px
 			left 20px
 		h1
 			font-size 2.6 em			
@@ -72,9 +74,9 @@ section.bottom
 		font-size 2 em
 		color rose
 	+below('s')
-		absolute top 300px
+		absolute top 260px
 		height auto
 		h2
-			absolute left right top 24px
+			absolute left right top 0px
 			text-align center
 		height auto
