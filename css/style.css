@@ -197,6 +197,20 @@ section.bottom h2 {
 @media only screen and (max-width: 767px) {
   section.bottom {
     position: absolute;
+    top: 300px;
+    height: auto;
+  }
+  section.bottom h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 560px) {
+  section.bottom {
+    position: absolute;
     top: 260px;
     height: auto;
     height: auto;
