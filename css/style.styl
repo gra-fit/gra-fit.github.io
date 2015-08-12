@@ -1,0 +1,80 @@
+rupture.scale = 0 560px 767px
+rupture.scale-names = 'xs' 's'
+
+@import 'jeet'
+@import 'nib'
+@import 'typographic'
+@import 'styl/variables.styl'
+@import 'styl/mixins.styl'
+
+normalize-base()
+normalize-html5()
+
+p, h1, h2, h3, h4, h5, h6, p 
+  font-family 'FuturaPTWebLight', "Myriad Pro", Arial, "San Serif"
+  font-weight 400
+  line-height 1.5em
+
+// edit()
+html 
+	background-color blue-lt
+section.top
+	absolute top left right
+	width 100%
+	height 50%
+	background-color teal-dk
+	trans()
+	+below('s')
+		height 300px
+.wrapper
+	center(1024px)
+	position relative
+	height 100%
+	h1
+		absolute bottom 180px left 440px
+		font-size 3 em
+		color yellow
+	img.logo
+		absolute bottom -42px left 40px
+		z-index 10
+		trans()
+	+below('s')
+		width 560px
+		h1
+			position relative
+			display  block
+			width 100%
+			top 30px
+			left 0
+			right 0
+			text-align center
+		img.logo
+			center()
+			bottom -32px
+			width 480px
+	+below('xs')
+		width 380px
+		img.logo
+			center()
+			bottom -22px
+			width 340px
+			left 20px
+		h1
+			font-size 2.6 em			
+	
+section.bottom
+	absolute bottom left right
+	width 100%
+	height 50%
+	background-color blue-lt
+	h2
+		absolute top 54px left 440px
+		font-size 2 em
+		color rose
+	+below('s')
+		absolute top 300px
+		height auto
+		h2
+			absolute left right
+			text-align center
+		height auto
