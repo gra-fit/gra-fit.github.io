@@ -1,0 +1,26 @@
+{
+  "name": "gra-fit.github.io",
+  "version": "0.0.0",
+  "description": "grafit site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gra-fit/gra-fit.github.io.git"
+  },
+  "author": "Lester Ng",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gra-fit/gra-fit.github.io/issues"
+  },
+  "homepage": "https://github.com/gra-fit/gra-fit.github.io",
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-stylus": "~2.0.6",
+    "nib": "~1.1.0",
+    "rupture": "~0.6.1",
+    "jeet": "~6.1.2"
+  }
+}
